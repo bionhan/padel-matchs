@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Variante pleine page (Android « maskable », iPhone) : le terrain reste dans le cercle central de sécurité -->
+  <rect width="512" height="512" fill="#183f8f"/>
+  <g transform="translate(256 256) scale(.8) translate(-256 -256)">
+    <rect x="48" y="148" width="416" height="216" rx="10" fill="#2a63c8" stroke="#fff" stroke-width="13"/>
+    <path d="M111.5 148v216M400.5 148v216M111.5 256h289" stroke="#fff" stroke-width="9" fill="none"/>
+    <path d="M256 131v250" stroke="#fff" stroke-width="22"/>
+    <circle cx="339" cy="206" r="28" fill="#d8ee3e"/>
+  </g>
+</svg>
