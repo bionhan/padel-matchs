@@ -682,7 +682,7 @@ function exampleState() {
   const players = EXAMPLE.map(([name, level]) => ({ id: uid(), name, level }));
   const idOf = n => players.find(p => p.name === n).id;
   return {
-    title: 'Entraînement du mardi',
+    title: 'Entraînement du --jour--',
     date: todayISO(),
     rounds: 4,
     mode: 'balanced',
